@@ -1,6 +1,6 @@
 using System;
 
-namespace SalesWeb.Models
+namespace SalesWeb.Models.ViewModels
 {
     public class ErrorViewModel
     {
@@ -8,4 +8,5 @@ namespace SalesWeb.Models
 
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
     }
+
 }
